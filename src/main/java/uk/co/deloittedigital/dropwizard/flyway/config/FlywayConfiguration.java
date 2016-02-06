@@ -18,13 +18,11 @@ package uk.co.deloittedigital.dropwizard.flyway.config;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
-import lombok.Data;
 import org.flywaydb.core.Flyway;
 
 import javax.validation.constraints.NotNull;
 import java.util.concurrent.TimeUnit;
 
-@Data
 public class FlywayConfiguration {
 
     public boolean cleanOnStartup = false;
