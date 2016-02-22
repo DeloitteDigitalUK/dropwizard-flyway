@@ -2,6 +2,11 @@
 
 [![Circle CI](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-flyway.svg?style=svg)](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-flyway)
 
+## Overview
+
+This Dropwizard bundle adds support for [Flyway](https://flywaydb.org/) database migrations. This can be used to ensure
+that necessary database migrations have been applied before a service comes into operation.
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
