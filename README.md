@@ -1,5 +1,7 @@
 # Dropwizard Flyway bundle
 
+[![Circle CI](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-flyway.svg?style=svg)](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-flyway)
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
