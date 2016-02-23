@@ -7,6 +7,20 @@
 This Dropwizard bundle adds support for [Flyway](https://flywaydb.org/) database migrations. This can be used to ensure
 that necessary database migrations have been applied before a service comes into operation.
 
+## Obtaining the library
+
+### Maven
+
+    <dependency>
+        <groupId>uk.co.deloittedigital.dropwizard</groupId>
+        <artifactId>dropwizard-flyway</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+### Gradle
+
+    compile 'uk.co.deloittedigital.dropwizard:dropwizard-flyway:1.0.0'
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
